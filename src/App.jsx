@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Anecdote, AnecdoteCard } from "./anecdotes";
 import { anecdotes } from "./anecdotes/data";
 import { getMostVotedAnecdoteData } from "./anecdotes/helpers";
-import { initialVoteState } from "./anecdotes/initialVoteState";
+import { initialVoteState } from "./anecdotes/state/initialVoteState";
 import { Statistics } from "./feedback";
 import { statisticsData } from "./feedback/data";
 import {
